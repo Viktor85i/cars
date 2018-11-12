@@ -1,0 +1,296 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 1920px;
+	font-family: PT Sans;
+	font-weight: bold;
+}
+
+.header-div {
+	display: -webkit-flex; 
+	display: flex;
+	width: 1920px;
+	height: 90px;
+	justify-content: center;
+	align-content: center;
+	background: #eb5346;
+	border-bottom: 1.5px solid #2c323b;
+}
+
+.header-logo,.header-text {
+	margin-top: 25px;
+}
+
+.header-text {
+	font-size: 28px;
+	margin-top: 28px;
+}
+
+.header-logo, .header-text {
+	align-items: center;
+	padding: 0 10px;
+	color: #ffffff;
+}
+
+.body-main {
+	box-sizing: border-box;
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.auto-class {
+	display: -webkit-flex; 
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	width: 100%;
+	margin-top: 87px;
+}
+
+.auto-class_mini,
+.auto-class_mid,
+.auto-class_premium {
+	align-items: center;
+	width: 375px;
+	margin: 0 auto;
+}
+
+.img-mini, .img-mid, .img-premium{
+	margin-top: 65px;
+}
+
+.cars-class {
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.text-mini,.text-mid,.text-premium {
+	width: 210px;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 22px;
+	background: #252e39;
+	color: #ffffff;
+}
+
+.cost {
+	width: 314px;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 22px;
+	background: #eb5346;
+	color: #ffffff;
+	margin-top: 65px;
+}
+
+.cost-link {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.text-mini p,.text-mid p,.text-premium p {
+	padding: 2px;
+}
+
+.arrow-mini, .arrow-mid {
+	display: none;
+}
+
+.arrow-mini, .arrow-mid, .arrow-premium {
+	margin: 0 auto;
+	margin-top: 6.5px;
+	text-align: center;
+}
+
+.flex-container {
+	display: -webkit-flex; 
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	font-family: PT Sans Regular;
+	width: 1170px;
+}
+
+.flex-item {
+	width: 820px;
+	margin-top: 40px;
+}
+
+.detail {
+	display: -webkit-flex; 
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	font-family: PT Sans;
+	font-weight: 400;
+	width: 820px;
+}
+
+.additional-details {
+	height: 100px;
+}
+
+.additional-details div {
+	display: inline-block;
+	width: 85px;
+	margin: 0 5px;
+	font-size: 12px;
+	text-align: center;
+	color: #eb5346;
+}
+
+.additional-details div p{
+	margin-top: 10px;
+	vertical-align: text-top;
+}
+
+.cost-feedback div {
+	display: inline-block;
+}
+
+.cost-feedback {
+	margin-top: 10px;
+	height: 210px;
+}
+
+.price-cost {
+	margin-left: 85px;
+	margin-right: 26px;
+	width:272px;
+}
+
+.text-cost {
+	font-size: 22px;
+	color: #eb5346;
+}
+
+hr {
+	border: none;
+	height: 0.5px; 
+	color: #252e39;
+	background: #252e39;
+}
+
+.text-material {
+	font-size: 16px;
+	color: #252e39;
+}
+
+.text-material span {
+	margin-left: 45px;
+	font-size: 18px;
+	font-family: PT Sans;
+	font-weight: bold;
+	color: #eb5346;
+}
+
+.feedback {
+	width: 263px;
+	font-size: 22px;
+	text-align: center;
+	margin-left: 26px;
+	background: #252e39;
+	padding: 6px 0px;
+}
+
+.feedback a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+/* //////////////////////////navigation/////////////////// */
+.nav-list {
+	width: 350px;
+	margin-top: 35px;
+	margin-left: 25px
+	
+}
+
+.container-list {
+	display: -webkit-flex; 
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	
+	
+
+}
+
+.list-triangle {
+	list-style: none;
+	width: 20px;
+	margin: 0px;
+	align-items: center;
+}
+
+.list-triangle li, .list .list-item  {
+	height: 30px;
+	margin-bottom: 5px;
+}	
+
+.list {
+	list-style: none;
+	align-items: center;
+	font-family: PT Sans Regular;
+	font-size: 16px;
+	width: 300px;
+	border-left: 0.5px solid #000000; */
+}
+
+.list .list-item {
+	padding-top: 5px;
+	padding-left: 24px;
+	margin-left: -9px;
+	width: 190px;
+	margin-top: 0.5px;
+	cursor: pointer;
+}
+
+.list .black:hover {
+	background: #252e39;
+	color: #ffffff;
+}
+
+.list-item_list>li {
+	color: #000000;
+}
+
+.list .red:hover, .list-item_list .item-list_item:hover {
+	background: #eb5346;
+	color: #ffffff;
+}
+
+.black .imgwhite {
+	margin-left: 70px;
+	
+}
+ 
+.list .list-item_list {
+	font-size: 14px;
+	list-style: none;
+	margin-top: 9px;
+}
+
+.list-item_list .item-list_item{
+	margin: -23px;
+	padding-left: 45px;
+	width: 190px;
+	height: 30px;
+	margin-top: 3px;
+	margin-bottom: 5px;
+	padding-top: 5px;
+}
+
+.list-triangle img{
+	display: none;
+} 
+
+ .list > .black > .list-item_list {
+  display: none;
+}
+
